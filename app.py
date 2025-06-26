@@ -9,7 +9,7 @@ st.set_page_config(page_title="Filtro Contable", layout="wide")
 st.title("Filtro de Fechas - BD_JDT1_ok")
 
 # Ruta del archivo CSV en entorno sandbox
-csv_path = "/mnt/data/BD_JDT1_ok.csv"
+csv_path = "BD_JDT1_ok.csv"
 if not os.path.exists(csv_path):
     st.error(f"No se pudo encontrar el archivo {csv_path}")
     st.stop()
